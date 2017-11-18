@@ -9,8 +9,8 @@ class Accelerometer
     double get_acceleration();
 
   private:
-    /// TASK 7 (PERSON A) 
-double error = <0.123>;
+    /// TASK 7 (PERSON A)
+double error = <0>;
     double error;
     ////////////////////////////////////////////////////////////////////////////
 };
