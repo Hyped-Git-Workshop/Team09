@@ -1,10 +1,9 @@
 #ifndef HYPED_GIT_WSHOP_POD_H
 #define HYPED_GIT_WSHOP_POD_H
+#include "navigation.h"
 
-#include <string>
 
-/// TASK 10.1 (BOTH) 
-#include "bms.h"
+/// TASK 10.1 (BOTH) ///////////////////////////////////////////////////////////
 
 /// END OF TASK 10.1 (BOTH) ////////////////////////////////////////////////////
 
@@ -17,15 +16,14 @@ class Pod
     std::string get_name();
     double get_max_speed();
     /// TASKS 3 (PERSON A) & 4 (PERSON B)
-double get_temperature();
+    double get_temperature();
 
-double get_pressure();
+    double get_pressure();
     /// END OF TASKS 3A & 4B ///////////////////////////////////////////////////
 
 
-    /// TASK 10.2 (BOTH) 
-BatteryManagementSystem bms;
-
+    /// TASK 10.2 (BOTH) ///////////////////////////////////////////////////////
+    Navigation nav;
     /// END OF TASK 10.2 (BOTH) ////////////////////////////////////////////////
 };
 
