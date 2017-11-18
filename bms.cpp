@@ -5,6 +5,9 @@ BatteryManagementSystem::BatteryManagementSystem()
 }
 
 /// TASK 9 (BOTH) //////////////////////////////////////////////////////////////
+double BatteryManagementSystem::get_current()
+{
+  return 10;
 double BatteryManagementSystem::get_voltage()
 {
     return 0;

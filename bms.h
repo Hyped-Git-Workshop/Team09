@@ -7,8 +7,10 @@ class BatteryManagementSystem
   public:
     BatteryManagementSystem();
 
-    /// TASKS 9 (BOTH) 
-double get_voltage();
+    /// TASKS 9 (BOTH) /////////////////////////////////////////////////////////
+    double get_current();
+    /// TASKS 9 (BOTH)
+    double get_voltage();
     /// END OF TASKS 9AB ///////////////////////////////////////////////////////
 };
 
