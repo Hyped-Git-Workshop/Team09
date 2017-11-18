@@ -1,6 +1,6 @@
 #ifndef HYPED_GIT_WSHOP_POD_H
 #define HYPED_GIT_WSHOP_POD_H
-
+#include <string>
 
 
 /// TASK 10.1 (BOTH) ///////////////////////////////////////////////////////////
