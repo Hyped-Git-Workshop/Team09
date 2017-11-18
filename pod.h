@@ -1,10 +1,11 @@
 #ifndef HYPED_GIT_WSHOP_POD_H
 #define HYPED_GIT_WSHOP_POD_H
-#include "navigation.h"
+
 
 
 /// TASK 10.1 (BOTH) ///////////////////////////////////////////////////////////
-
+#include "navigation.h"
+#include "bms.h"
 /// END OF TASK 10.1 (BOTH) ////////////////////////////////////////////////////
 
 
@@ -24,6 +25,7 @@ class Pod
 
     /// TASK 10.2 (BOTH) ///////////////////////////////////////////////////////
     Navigation nav;
+    BatteryManagementSystem bms;
     /// END OF TASK 10.2 (BOTH) ////////////////////////////////////////////////
 };
 
