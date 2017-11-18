@@ -10,8 +10,7 @@ class Accelerometer
 
   private:
     /// TASK 7 (PERSON A)
-double error = 0;
-    double error;
+	double error = 0;
     ////////////////////////////////////////////////////////////////////////////
 };
 
